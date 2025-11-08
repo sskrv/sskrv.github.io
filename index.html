@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Suleiman && Backend</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body lang="ru">
+  <header class="horizontal-container">
+    <div class="block">
+      <h2>Backend-разработчик</h2>
+      <p><strong>Аскеров Сулейман</strong></p>
+      <p>
+        Cтудент 3 курса "Прикладная информатика" РТУ МИРЭА.
+      </p>
+      <p>
+        Интересуюсь backend-разработкой да и в целом построением качественных веб-приложений.
+      </p>
+      <p>
+        Занимаюсь программированием c 15 лет.
+      </p>
+    </div>
+    <div class="block">
+      <h2>Контакты</h2>
+      <p><a href="mailto:askerovsul18@gmail.com" target="_blank">askerovsul18@gmail.com</a></p>
+      <p><code>tg</code> <a href="https://t.me/sskrv" target="_blank">@sskrv</a></p>
+      <p><code>gh</code> <a href="https://github.com/sskrv" target="_blank">@sskrv</a></p>
+      <p><code>li</code> <a href="https://www.linkedin.com/in/suleiman-askerov-6a432933b/" target="_blank">Suleiman Askerov</a></p>
+      <p>русский, английский</p>
+      <p>Москва, Россия</p>
+    </div>
+  </header>
+
+  <div class="horizontal-container">
+    <div class="block road">
+      <h2>Мой путь</h2>
+
+      <h3>2025</h3>
+      <p>Работаю на фрилансе, разрабатываю сайты/ботов на заказ;</p>
+      <p>Активно использую в проектах базы данных (PostgreSQL, SQLite), а также контейнеризацию;</p>
+      <p>Взаимодействую с микросервисной архитектурой на фрилансе.</p>
+      
+      <div class="splitter"></div>
+
+      <h3>2024</h3>
+      <p>Активно изучаю Linux, пользуюсь Ubuntu как основной системой на ПК;</p>
+      <p>Настраиваю VPS сервера, устанавливаю различные VPN панели, настраиваю SSL-сертификаты;</p>
+      <p>Уделяю много времени учебе в универститете, средний балл 4.8.</p>
+      
+      <div class="splitter"></div>
+
+      <h3>2023</h3>
+      <p>Подработка на фрилансе;</p>
+      <p>Сдаю ЕГЭ со средним баллов 89;</p>
+      <p>Погружаюсь в учебу, средний балл 4.5;</p>
+      <p>Изучаю алгоритмы, начинаю изучать Golang.</p>
+
+      <div class="splitter"></div>
+
+      <h3>2022</h3>
+      <p>
+        Выпускник лицея академии Яндекса (
+        <a href="" target="_blank">
+          сертификат за 1 год</a>
+        ).
+      </p>
+    </div>
+
+
+    <div class="block stack">
+      <h2>Стек</h2>
+      <ul>
+        <li>Golang, GORM</li>
+        <li>Python</li>
+        <li>PostgreSQL, SQLite</li>
+        <li>Git и Github</li>
+        <li>Docker, Docker Compose</li>
+      </ul>
+      <div class="splitter"></div>
+      <p>Помимо этого у меня есть навыки</p>
+      <ul>
+        <li>работы с REST API</li>
+        <li>администрирования VPS Linux</li>
+        <li>проектирования микросервисов</li>
+        <li>написания Bash скриптов</li>
+        <li>чтения документации на английском</li>
+        <li>командной разработки</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block projects">
+    <h2>Мои проекты</h2>
+    <ul>
+      <li>
+        <a href="#">@DeepSeekRus_bot</a> — телеграм бот на Go с микросервисной архитектурой. 
+        Дорабатывал микросервисы, добавлял интеграции с нейросетями (Qwen, OpenAI), 
+        рефакторил код через внедрение паттернов проектирования
+        <div class="tags">
+          <span class="tag">Golang</span>
+          <span class="tag">Telegram Bot API</span>
+          <span class="tag">Microservices</span>
+          <span class="tag">OpenAI API</span>
+          <span class="tag">Qwen API</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Linux/VPS</span>
+        </div>
+      </li>
+      <li>
+        <a href="#">LinkShortener</a> — сервис для сокращения URL с базовой статистикой. 
+        Реализовал REST API через net/http, PostgreSQL для хранения данных, систему генерации 
+        уникальных коротких кодов. Развернут в Docker на VPS
+        <div class="tags">
+          <span class="tag">Golang</span>
+          <span class="tag">net/http</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">REST API</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Linux/VPS</span>
+        </div>
+      </li>
+      <li>
+        <a href="#">Key VPN</a> — автоматизированный Telegram-бот для продажи VPN-подписок. 
+        Реализовал интеграцию с ЮKassa, автоматическую генерацию ключей через REST API 
+        панелей (Hiddify, 3x-UI). SaaS-решение работает 24/7 на VPS без участия человека
+        <div class="tags">
+          <span class="tag">Golang</span>
+          <span class="tag">Telegram Bot API</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">YooKassa API</span>
+          <span class="tag">Hiddify API</span>
+          <span class="tag">REST API</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Linux/VPS</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
